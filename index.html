@@ -1,24 +1,36 @@
 <html>
 <head>
     <title>Mostafa Bheiry</title>
+
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+    <link rel="stylesheet" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.min.css">
+
     <style>
         *{ padding: 0px; margin: 0px; }
         body{
             font-family: 'Titillium Web', sans-serif;
 
             background: -webkit-radial-gradient( rgba(44, 62, 80,0) , rgba(44, 62, 80,1) );
-            background: -o-radial-gradient( rgba(44, 62, 80,0) , rgba(44, 62, 80,1) );
-            background: -moz-radial-gradient( rgba(44, 62, 80,0) , rgba(44, 62, 80,1) );
-            background: radial-gradient( rgba(44, 62, 80,0) , rgba(44, 62, 80,1) );
+            background:    -moz-radial-gradient( rgba(44, 62, 80,0) , rgba(44, 62, 80,1) );
+            background:      -o-radial-gradient( rgba(44, 62, 80,0) , rgba(44, 62, 80,1) );
+            background:         radial-gradient( rgba(44, 62, 80,0) , rgba(44, 62, 80,1) );
         }
         
-        div{
+        div.main{
             margin: auto;
             width: 500px;
             margin-top: 120px;
             text-align: center;
         }
+
+        .fa{
+            font-size: 60px;
+            color: #333;
+            margin-right: 10%;
+        }
+        a:last-child>.fa{ margin-right: 0px; }
+
+        .myIcons{ margin-top: 20px; }
 
     </style>
 
@@ -26,10 +38,15 @@
 </head>
 <body>
 
-    <div>
+    <div class="main">
         <h1>Mostafa Bheiry </h1>
         <h3>Senior Front-end Developer & UX Designer</h3>
-
+        
+        <div class="myIcons">
+            <a href="https://www.linkedin.com/in/mbheiry"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+            <a href="https://www.behance.net/MBheiry" class=""><i class="fa fa-behance-square" aria-hidden="true"></i></a>
+            <a href="https://codepen.io/MBheiry/pens/popular/?grid_type=list"><i class="fa fa-codepen" aria-hidden="true"></i></a>
+        </div>
     </div>
 </body>
 
